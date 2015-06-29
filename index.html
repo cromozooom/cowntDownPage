@@ -9,7 +9,7 @@
     <title>HTML5 Responsive coming soon page - Matrix</title>
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One">
     <link rel="stylesheet" type="text/css" href="css/font.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
@@ -20,7 +20,7 @@
           <div class="col-xs-12 col-md-2 col-md-offset-5"></div>
           <h1><img src="images/logo1.png"></h1>
           <div class="col-xs-12">
-            <h2 class="text-center">COMING SOON!</h2>
+            <h2 class="text-center">COMING SOON...</h2>
             <!--p.lead.text-center| The new Fiorentinastore.com is coming!
             -->
           </div>
@@ -39,11 +39,26 @@
         </div>
       </div>
     </section>
-    <section class="subscribe spacing">
+    <section class="subscribe">
       <div class="container">
-        <div id="subscribe">
-          <h3>Subscribe To Get Notified</h3>
-          <p class="text-center"><a href="#" class="btn btn-primary btn-lg">COMPILA IL FORM</a></p>
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-4 col-md-4 col-lg-4">
+            <h3>Subscribe To Get Notified</h3>
+            <form name="subscribe" method="post" action="http://clientsection.contactlab.it/service/subscribe.php" class="text-center">
+              <div class="form-group text-center">
+                <label for="email" class="text-center">Email:</label>
+                <input type="text" name="e" value="" class="form-control input-lg">
+                <input type="hidden" name="g" value="2001485">
+                <input type="hidden" name="wfc" value="1420014859385">
+                <input type="hidden" name="lang" value="it">
+              </div>
+              <input type="submit" name="do_subscribe" value="Iscrivimi" class="btn btn-primary btn-lg">
+            </form>
+          </div>
+          <!--p.text-center
+          a.btn.btn-primary.btn-lg(href="#")
+          	| COMPILA IL FORM
+          -->
           <!--form(action='', method='post', onsubmit='')
           p
           	input(name='', value='Enter your e-mail', type='text', id='')

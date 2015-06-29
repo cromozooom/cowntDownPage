@@ -10,7 +10,7 @@ html( lang="en")
 		title HTML5 Responsive coming soon page - Matrix
 		meta(name='description', content='')
 		meta(http-equiv='X-UA-Compatible', content='chrome=1')
-		link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One')
+		link(rel='stylesheet', type='text/css', href='https://fonts.googleapis.com/css?family=Pathway+Gothic+One')
 		link(rel='stylesheet', type='text/css', href='css/font.css')
 		link(rel='stylesheet', type='text/css', href='css/style.css')
 	body#home
@@ -22,7 +22,7 @@ html( lang="en")
 								img(src='images/logo1.png')
 					.col-xs-12
 						h2.text-center
-							| COMING SOON!
+							| COMING SOON...
 						//p.lead.text-center
 							| The new Fiorentinastore.com is coming!
 			//#Content.wrapper.topSection
@@ -34,12 +34,22 @@ html( lang="en")
 			.container-fluid.cloks
 				.container
 					.row.countdown.styled
-
-		section.subscribe.spacing
+		section.subscribe
 			.container
-				#subscribe
-					h3 Subscribe To Get Notified
-					p.text-center
+				.row
+					.col-xs-12.col-md-offset-4.col-md-4.col-lg-4
+						h3 Subscribe To Get Notified
+						form.text-center(name="subscribe" method="post" action="http://clientsection.contactlab.it/service/subscribe.php")
+							.form-group.text-center
+								label.text-center(for="email") Email:
+								input.form-control.input-lg(type="text" name="e" value="")
+								input(type="hidden" name="g" value="2001485")
+								input(type="hidden" name="wfc" value="1420014859385")
+								input(type="hidden" name="lang" value="it")
+							input.btn.btn-primary.btn-lg(type="submit" name="do_subscribe" value="Iscrivimi")
+
+
+					//p.text-center
 						a.btn.btn-primary.btn-lg(href="#")
 							| COMPILA IL FORM
 					//form(action='', method='post', onsubmit='')

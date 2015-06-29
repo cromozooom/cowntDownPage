@@ -6684,6 +6684,14 @@ section.main {
   padding-top: 2em; }
 
 /* line 7, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+section.subscribe {
+  background: white;
+  padding: 3em 0; }
+  /* line 10, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  section.subscribe label.text-center {
+    font-size: 2em; }
+
+/* line 13, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 body {
   color: #FFF;
   font-family: 'Pathway Gothic One', sans-serif;
@@ -6698,32 +6706,32 @@ body {
   background-size: cover;
   background: url('../images/swirl_pattern.png') top center repeat-x; }
 
-/* line 21, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 27, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .main p {
   color: white; }
 
-/* line 25, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 31, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .ie body {
   filter: dropshadow(color=#000000, offx=0, offy=1); }
-/* line 27, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 33, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .ie h1 {
   filter: dropshadow(color=#000000, offx=0, offy=3);
   padding-bottom: 12px; }
-/* line 30, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 36, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .ie h2 {
   filter: dropshadow(color=#000000, offx=0, offy=3); }
-/* line 32, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 38, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .ie h3 {
   filter: dropshadow(color=#000000, offx=0, offy=3); }
 
-/* line 35, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 41, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 h1 {
   font-size: 50px;
   letter-spacing: -2px;
   line-height: 40px;
   text-align: center; }
 
-/* line 40, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 46, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 h3 {
   font-size: 30px;
   margin: 0.2em 0;
@@ -6731,26 +6739,26 @@ h3 {
   color: #888;
   padding: 0 0 29px; }
 
-/* line 46, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 52, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 h2 {
   color: white;
   font-size: 6em; }
 
-/* line 50, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 56, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 h4 {
   margin-bottom: 5px; }
 
-/* line 52, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 58, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 p, pre {
   margin: 0 0 10px 0; }
 
-/* line 54, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 60, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 code {
   text-transform: uppercase !important;
   color: #EEE;
   border-bottom: 1px dotted #666; }
 
-/* line 58, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 64, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 small {
   background: url(../images/alpha.png);
   background: rgba(0, 0, 0, 0.8) url();
@@ -6758,7 +6766,7 @@ small {
   font-size: 15px;
   padding: 0 5px; }
 
-/* line 64, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 70, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 strong {
   text-align: center;
   display: block;
@@ -6766,27 +6774,27 @@ strong {
   font-weight: normal;
   color: #646464; }
 
-/* line 70, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 76, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 a {
   color: gray;
   text-decoration: none; }
 
-/* line 74, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 80, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 a:hover {
   color: #BBB; }
 
-/* line 79, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 85, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .spacing {
   padding: 60px 0; }
 
-/* line 82, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 88, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #Header {
   position: relative;
   width: 100%;
   z-index: 1;
   padding-top: 50px; }
 
-/* line 88, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 94, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .logo {
   width: auto;
   margin: 0 auto;
@@ -6801,22 +6809,22 @@ a:hover {
   display: block;
   margin: 0 auto; }
 
-/* line 106, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 112, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .wrapper {
   margin: 0 auto;
   position: relative;
   width: 100%;
   z-index: 1; }
 
-/* line 112, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 118, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #socialIcons {
   display: block; }
-  /* line 115, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 121, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   #socialIcons ul {
     margin: 40px 0 0 0px;
     padding: 0px;
     text-align: center; }
-    /* line 119, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+    /* line 125, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
     #socialIcons ul li {
       margin-right: 19px;
       height: 56px;
@@ -6827,32 +6835,32 @@ a:hover {
       border-radius: 71px;
       padding: 10px;
       border: 1px solid #888; }
-      /* line 130, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+      /* line 136, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
       #socialIcons ul li a {
         width: 34px;
         height: 34px;
         display: inline-block; }
 
-/* line 136, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 142, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .twitterIcon, .facebookIcon, .linkedInIcon, .pintrestIcon {
   background: url('../images/social-icons.png') -74px 0px; }
-  /* line 138, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 144, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .twitterIcon:hover, .facebookIcon:hover, .linkedInIcon:hover, .pintrestIcon:hover {
     background-position-y: -33px; }
 
-/* line 141, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 147, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .facebookIcon {
   background-position: 10px 0px; }
 
-/* line 144, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 150, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .linkedInIcon {
   background-position: -245px 0px; }
 
-/* line 147, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 153, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .pintrestIcon {
   background-position: -331px 0px; }
 
-/* line 150, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 156, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .tempBy {
   display: block;
   text-align: center;
@@ -6860,7 +6868,7 @@ a:hover {
   background: #fff;
   color: #8A8A8A; }
 
-/* line 158, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 164, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #Content h2 {
   margin: 0px;
   padding: 0px;
@@ -6868,7 +6876,7 @@ a:hover {
   font-weight: 300;
   color: #676767;
   margin-bottom: 40px; }
-/* line 165, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 171, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #Content h3 {
   text-align: center;
   font-size: 24px;
@@ -6876,7 +6884,7 @@ a:hover {
   display: block;
   clear: both; }
 
-/* line 172, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 178, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #WindowSlide {
   margin: 0 auto;
   position: relative;
@@ -6885,17 +6893,17 @@ a:hover {
   display: block;
   overflow: hidden; }
 
-/* line 180, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 186, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #Mail {
   position: absolute;
   width: 634px;
   top: 0px;
   left: 0px; }
 
-/* line 188, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 194, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #subscribe p {
   text-align: center; }
-/* line 190, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 196, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #subscribe input {
   background: rgba(255, 255, 255, 0.52);
   color: #7a7a7a;
@@ -6904,7 +6912,7 @@ a:hover {
   border: 1px solid #888;
   padding: 10px;
   font-size: 14px; }
-/* line 199, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 205, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #subscribe input[type="button"] {
   background: white;
   width: auto;
@@ -6914,13 +6922,13 @@ a:hover {
   font-weight: bold;
   font-size: 14px;
   color: #888; }
-  /* line 208, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 214, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   #subscribe input[type="button"]:hover {
     background: #1e7ccd;
     color: #fff;
     border: 1px solid #1e7ccd; }
 
-/* line 213, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 219, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .callback, .simple {
   font-size: 20px;
   background: #27ae60;
@@ -6930,39 +6938,39 @@ a:hover {
   -webkit-transition: background 0.5s ease-out;
   transition: background 0.5s ease-out; }
 
-/* line 223, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 229, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .callback {
   cursor: pointer; }
 
-/* line 226, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 232, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .ended {
   background: #c0392b; }
 
-/* line 230, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 236, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .cloks {
   background: #420a92;
   padding: 3em 0; }
 
-/* line 234, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 240, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .countdown {
   text-align: center;
   font-family: 'Pathway Gothic One', sans-serif; }
-  /* line 237, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 243, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .countdown div.clock {
     border-radius: 10px;
     background: black; }
-  /* line 241, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 247, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .countdown span {
     border-top: 1px solid #604e36;
     color: #b59c7a;
     padding-bottom: 1em; }
 
-/* line 246, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 252, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .styled div {
   font-size: 70px;
   color: #fff; }
 
-/* line 251, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 257, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 #overlay {
   background-size: cover;
   background: url(../images/overlays/01.png) #420a92 center top;
@@ -6972,16 +6980,16 @@ a:hover {
   bottom: 0px;
   opacity: 0.8; }
 
-/* line 261, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 267, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 * + html .styled div {
   display: inline;
   zoom: 1; }
 
-/* line 265, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 271, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .styled div:first-child {
   margin-left: 0; }
 
-/* line 269, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 275, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .styled div span {
   display: block;
   padding-top: 3px;
@@ -6989,62 +6997,62 @@ a:hover {
   font-weight: normal;
   text-align: center; }
 
-/* line 276, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 282, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 footer {
   width: 100%;
   height: 30px;
   background: rgba(0, 0, 0, 0.64);
   position: absolute;
   bottom: 0px; }
-  /* line 282, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 288, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   footer span {
     float: right;
     margin: 10px; }
 
-/* line 287, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 293, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .subscribe {
   background: #fff; }
 
-/* line 290, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 296, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .features {
   background: rgba(55, 55, 55, 0.15);
   margin: 0px 0 10px 0; }
-  /* line 292, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 298, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .features h2 {
     padding: 0 0 30px 0; }
 
-/* line 297, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 303, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .featuresPro {
   margin-bottom: 30px;
   float: left; }
 
-/* line 301, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+/* line 307, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
 .featuresPro {
   font-size: 15px; }
 
 @media (max-width: 768px) {
-  /* line 305, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 311, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   body {
     min-width: initial !important; }
 
-  /* line 307, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 313, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .wrapper {
     width: 100%; }
 
-  /* line 309, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 315, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .styled div {
     margin-bottom: 10px; }
  }
 
 @media (max-width: 420px) {
-  /* line 313, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 319, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   h1 {
     float: initial;
     text-align: center;
     margin-left: 0px;
     margin-bottom: 0px; }
 
-  /* line 318, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 324, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .styled div {
     margin-bottom: 10px;
     font-size: 40px;
@@ -7053,29 +7061,29 @@ footer {
     width: 50px;
     height: 70px; }
 
-  /* line 325, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 331, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   #Content h2 {
     margin: 0px 0px 0px 0px;
     padding: 0px;
     text-align: center;
     font-weight: 300; }
 
-  /* line 330, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 336, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .styled {
     margin-bottom: 30px; }
 
-  /* line 332, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 338, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   #subscribe {
     width: 80%; }
-    /* line 333, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+    /* line 339, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
     #subscribe input[type="button"] {
       margin-top: 10px; }
 
-  /* line 337, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 343, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   .featuresPro img {
     width: 100%; }
 
-  /* line 340, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
+  /* line 346, /Users/nicur/Documents/dev/git/cowntDownPage/css/my_styles */
   footer {
     position: relative !important; }
  }

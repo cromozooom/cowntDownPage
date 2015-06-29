@@ -11,7 +11,7 @@ $( function() {
           date: endDate,
           render: function(data) {
             $(this.el).html(
-              "<div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.days, 3) + " <span>giorni</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.hours, 2) + " <span>ore</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.min, 2) + " <span>minuti</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.sec, 2) + " <span>secondi</span></div></div>");
+              "<div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.days, 2) + " <span>giorni</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.hours, 2) + " <span>ore</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.min, 2) + " <span>minuti</span></div></div><div class='col-xs-6 col-md-3'><div class='clock'>" + this.leadingZeros(data.sec, 2) + " <span>secondi</span></div></div>");
           }
         });
 
